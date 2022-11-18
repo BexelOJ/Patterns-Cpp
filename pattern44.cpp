@@ -1,24 +1,29 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
     int i,j,k=0;
     int n=4;
 
-    for(int i=1;i<=n;i++)
+    for(int i=1 ; i<=n ; i++)
     {
         k = k + i;
-        for(int j=k;j>k-i;j--)
+        for(int j=k ; j>k-i ; j--)
         {
-            std::cout <<j<<" ";
+            cout <<j<<" ";
         }
-        std::cout<<"\n";
+        cout<<"\n";
     }
-    //return 0;
+    return 0;
 }
 
+/*
+OUTPUT
 
+1
+3 2
+6 5 4
+10 9 8 7
 
-
-
-
+*/

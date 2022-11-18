@@ -2,9 +2,9 @@
 
 int main()
 {
-    for (int i = 5; i>0; i--)
+    for (int i=5 ; i>0 ; i--)
     {
-        for (int j = 5; j >0 ;j--)
+        for (int j=5 ; j>0 ; j--)
         {
             std::cout << j;
         }
@@ -13,9 +13,13 @@ int main()
     return 0;
 }
 
+/*
+OUTPUT:
 
+54321
+54321
+54321
+54321
+54321
 
-
-
-
-
+*/

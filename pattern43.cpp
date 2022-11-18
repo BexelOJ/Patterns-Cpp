@@ -1,22 +1,30 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    int n=5;
+    int n=5,t;
 
-    for(int i=1;i<=n;i++)
+    for(int i=1 ; i<=n ; i++)
     {
-        for(int j=1;j<=i;j++)
+        t = i - 1;
+        for(int j=1 ; j<=i ; j++)
         {
-            std::cout <<(i+j-1)<<" ";
+            cout <<t+i<<" ";
+            t = t + 2;
         }
-        std::cout<<"\n";
+        cout<<endl;
     }
     return 0;
 }
 
+/*
+OUTPUT
 
+1
+3 5
+5 7 9
+7 9 11 13
+9 11 13 15 17
 
-
-
-
+*/

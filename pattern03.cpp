@@ -2,9 +2,9 @@
 
 int main()
 {
-    for (int i = 1; i<=5; i++)
+    for (int i=1 ; i<=5; i++)
     {
-        for (int j = 1; j<=5;j++)
+        for (int j=1 ; j<=5 ; j++)
         {
             std::cout<<j;
         }
@@ -13,9 +13,13 @@ int main()
     return 0;
 }
 
+/*
+OUTPUT:
 
+12345
+12345
+12345
+12345
+12345
 
-
-
-
-
+*/

@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
@@ -14,22 +15,33 @@ int main()
         r1 = i;
         r2 = i + 1;
 
-        for (int j = n; j >= i; j--)
+        for (int j=n ; j>=i ; j--)
         {
-            if ((i + j) % 2 == 1)
+            if ((i + j)%2 == 1)
             {
-                std::cout << t1 << " ";
+                cout << t1 << " ";
             }
             else
             {
-                std::cout << t2 << " ";
+                cout << t2 << " ";
             }
             t1 = t1 - r1++;
             t2 = t2 - r2++;
         }
         y = y + i - 1;
         x = x + i;
-        std::cout << "\n";
+        cout << "\n";
     }
     return 0;
 }
+
+/*
+OUTPUT
+
+5
+6 4
+12 7 3
+13 11 8 2
+15 14 10 9 1
+
+*/

@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
@@ -8,9 +9,20 @@ int main()
     {
         for (int j = 'E'; j >= 'A'; j--)
         {
-            std::cout << char(i) << " ";
+            cout << char(i) << " ";
         }
-        std::cout << "\n";
+        cout << "\n";
     }
     return 0;
 }
+
+/*
+OUTPUT
+
+E E E E E
+D D D D D
+C C C C C
+B B B B B
+A A A A A
+
+*/
