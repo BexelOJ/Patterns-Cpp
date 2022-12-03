@@ -15,6 +15,7 @@ int main()
 }
 
 /*
+Program 072:
 OUTPUT:
 
 12345

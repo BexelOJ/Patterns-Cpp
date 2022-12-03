@@ -15,6 +15,7 @@ int main()
 }
 
 /*
+Program 002:
 OUTPUT:
 
 1111
@@ -24,10 +25,3 @@ OUTPUT:
 5555
 
 */
-
-
-
-
-
-
-

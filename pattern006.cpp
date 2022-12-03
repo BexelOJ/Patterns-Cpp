@@ -15,6 +15,7 @@ int main()
 }
 
 /*
+Program 006:
 OUTPUT:
 
 1 2 3 4 5

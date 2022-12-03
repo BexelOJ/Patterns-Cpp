@@ -16,6 +16,7 @@ int main()
 }
 
 /*
+Program 082:
 OUTPUT:
 
 0 0 0 0 0

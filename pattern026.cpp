@@ -17,6 +17,7 @@ int main()
 }
 
 /*
+Program 026:
 OUTPUT
 
 A A A A A
